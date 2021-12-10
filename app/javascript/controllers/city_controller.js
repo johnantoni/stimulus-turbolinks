@@ -21,7 +21,7 @@ export default class extends Controller {
 
   askToRemove() {
     Dialog.confirm({
-      title: 'Remove city',
+      title: 'Remove City',
       message: `Are you sure you want to remove <b>${this.cityName}</b>? This action cannot be undone.`,
       confirmText: 'Remove',
       type: 'is-danger',
